@@ -1,8 +1,6 @@
 import React from "react";
 import QuoteCard from "./QuoteCard";
-import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux"
-import { upvoteQuote,downvoteQuote,removeQuote } from "./quotesSlice";
 
 function Quotes() {
 
